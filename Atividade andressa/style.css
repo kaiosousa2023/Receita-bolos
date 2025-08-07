@@ -1,0 +1,50 @@
+.imagem-receita {
+  width: 800px !important;
+  height: auto;
+  object-fit: cover;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color: #fffaf0;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #a0522d;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.botao {
+  display: inline-block;
+  background-color: #ffa500;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.botao:hover {
+  background-color: #ff8c00;
+  transform: scale(1.05);
+}
+
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 0;
+}
